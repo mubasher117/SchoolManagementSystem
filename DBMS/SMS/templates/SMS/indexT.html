@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Teacher's Site</title>
+<meta charset="utf-8">
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'SMS/css/reset.css' %}" media="all">
+<link rel="stylesheet" type="text/css" href="{% static 'SMS/css/style.css' %}" media="all">
+<script type="text/javascript" src="{% static 'SMS/js/jquery-1.4.2.min.js' %}" ></script>
+<script type="text/javascript" src="{% static 'SMS/js/cufon-yui.js' %}"></script>
+<script type="text/javascript" src="{% static 'SMS/js/cufon-replace.js' %}"></script>
+<script type="text/javascript" src="{% static 'SMS/js/Myriad_Pro_300.font.js' %}"></script>
+<script type="text/javascript" src="{% static 'SMS/js/Myriad_Pro_400.font.js' %}"></script>
+<script type="text/javascript" src="{% static 'SMS/js/script.js' %}"></script>
+
+</head>
+<body id="page1">
+<!-- START PAGE SOURCE -->
+<div class="wrap">
+     <header>
+         <div class="container">
+            <h1><a href="#">School Management System</a></h1>
+                <nav>
+                    <ul>
+                      <li class="current"><a href="TimeTableT.html" class="m1">Time TimeTable</a></li>
+                      <li><a href="DateSheetT.html" class="m2">Date Sheet</a></li>
+                      <li><a href="ResultT.html" class="m3">Result</a></li>
+                      <li><a href="RequestT.html" class="m4">Request</a></li>
+                      <li><a href="AssignmentsT.html" class="m5">Assignments</a></li>
+                     
+                      <li><a href="Payroll.html" class="m7">Payroll</a></li>
+                      <li><a href="AttendanceT.html" class="m8">Attendance</a></li>
+                   
+                    </ul>
+                </nav>
+         </div>
+    </header>
+
+
+<form id="contacts-form" action="#">
+  <fieldset>
+    <div class="field">
+      <label>Name:</label>
+      <input type="text" value=""/><br>
+       <label>Designation:</label>
+      <input type="text" value=""/><br>
+       <label>Salary:</label>
+      <input type="int" value=""/><br>
+        <label>Class:</label>
+      <input type="text" value=""/><br>
+
+    </div>
+</fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script type="text/javascript"> Cufon.now(); </script>
+<!-- END PAGE SOURCE -->
+</body>
+</html>
